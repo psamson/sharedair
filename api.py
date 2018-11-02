@@ -7,7 +7,7 @@ import os.path
 import dateutil.parser
 import pymysql
 
-conn = pymysql.connect(host='localhost', port=3306, user='qtbaReader', passwd='2rVe2aVUazsnQ7*?', db='415798_trajectory')
+conn = pymysql.connect(host='psamson.engin.umich.edu', port=3306, user='qtbaReader', passwd='2rVe2aVUazsnQ7*?', db='415798_trajectory')
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
