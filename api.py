@@ -114,4 +114,4 @@ def api_id():
     #return rowdate   
     return jsonify(latlons)
 
-app.run(host='0.0.0.0', port=5001)
+app.run(host='0.0.0.0', port=80)
